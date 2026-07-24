@@ -1,0 +1,21 @@
+{
+  "name": "Conversa - Realtime Chatting App",
+  "short_name": "Conversa",
+  "description": "A modern real-time chat application with secure authentication, instant messaging, AI-powered conversations, and media sharing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
