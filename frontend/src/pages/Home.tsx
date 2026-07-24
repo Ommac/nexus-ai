@@ -32,7 +32,7 @@ const Home = () => {
             {/* footer */}
             <div className="p-2">
                 <p className="text-center text-sm lg:text-base text-muted-foreground text">
-                    © 2026 Nexus AI. All rights reserved. <a href="https://pankil-soni.github.io/" target="_blank" className="underline text-primary">Pankil Soni</a>
+                    © 2026 Nexus AI. All rights reserved by Om Pise
                 </p>
             </div>
         </div>
