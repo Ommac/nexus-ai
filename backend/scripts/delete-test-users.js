@@ -1,6 +1,6 @@
 /**
  * delete-test-users.js
- * Removes all test users whose email ends in @conversa-test.dev.
+ * Removes all test users whose email ends in @nexus-ai-test.dev.
  * Also deletes any conversations those users belong to and all
  * messages inside those conversations.
  *
@@ -13,7 +13,7 @@ const User = require("../Models/User");
 const Conversation = require("../Models/Conversation");
 const Message = require("../Models/Message");
 
-const TEST_EMAIL_SUFFIX = "@conversa-test.dev";
+const TEST_EMAIL_SUFFIX = "@nexus-ai-test.dev";
 
 const run = async () => {
     await connectDB();

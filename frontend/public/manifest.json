@@ -1,6 +1,6 @@
 {
-  "name": "Conversa - Realtime Chatting App",
-  "short_name": "Conversa",
+  "name": "Nexus AI - Realtime Chatting App",
+  "short_name": "Nexus AI",
   "description": "A modern real-time chat application with secure authentication, instant messaging, AI-powered conversations, and media sharing.",
   "start_url": "/",
   "display": "standalone",

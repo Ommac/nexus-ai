@@ -19,9 +19,9 @@ function sanitizeForRequester(member, requesterId) {
   return {
     _id: obj._id,
     email: obj.email, // email is intentionally NOT sanitized
-    name: "Conversa User",
+    name: "Nexus AI User",
     about: "",
-    profilePic: "https://ui-avatars.com/api/?name=Conversa+User&background=6366f1&color=fff&bold=true",
+    profilePic: "https://ui-avatars.com/api/?name=Nexus+AI+User&background=6366f1&color=fff&bold=true",
     isOnline: false,
     lastSeen: null,
     isBot: obj.isBot,

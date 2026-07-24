@@ -12,7 +12,7 @@ const PASSWORD = process.env.PASSWORD;
 const AWS_BUCKET_NAME = process.env.AWS_BUCKET_NAME;
 const AWS_ACCESS_KEY = process.env.AWS_ACCESS_KEY;
 const AWS_SECRET = process.env.AWS_SECRET;
-const FRONTEND_URL = process.env.FRONTEND_URL || "https://conversa-chatting.netlify.app";
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://nexus-ai.netlify.app";
 
 module.exports = {
   CORS_ORIGIN,

@@ -12,7 +12,7 @@ const Home = () => {
             <div className="flex-1 flex flex-col space-y-8 items-center justify-center">
                 {/* title */}
                 <div className="text-center">
-                    <h1 className="font-bold text-6xl lg:text-8xl">Conversa</h1>
+                    <h1 className="font-bold text-6xl lg:text-8xl">Nexus AI</h1>
                     <p className="text-xl">Online Chatting App</p>
                 </div>
                 {/* action buttons */}
@@ -32,7 +32,7 @@ const Home = () => {
             {/* footer */}
             <div className="p-2">
                 <p className="text-center text-sm lg:text-base text-muted-foreground text">
-                    © 2026 Conversa. All rights reserved. <a href="https://pankil-soni.github.io/" target="_blank" className="underline text-primary">Pankil Soni</a>
+                    © 2026 Nexus AI. All rights reserved. <a href="https://pankil-soni.github.io/" target="_blank" className="underline text-primary">Pankil Soni</a>
                 </p>
             </div>
         </div>

@@ -1,7 +1,7 @@
 /**
  * seed-test-users.js
  * Creates 20 test users in the database.
- * All test users have email addresses ending in @conversa-test.dev so the
+ * All test users have email addresses ending in @nexus-ai-test.dev so the
  * delete script can cleanly remove them without touching real accounts.
  *
  * Usage:
@@ -12,7 +12,7 @@ const bcrypt = require("bcryptjs");
 const connectDB = require("../db");
 const User = require("../Models/User");
 
-const TEST_EMAIL_SUFFIX = "@conversa-test.dev";
+const TEST_EMAIL_SUFFIX = "@nexus-ai-test.dev";
 const TEST_PASSWORD = "Test@1234"; // shared password for all test users
 
 const TEST_USERS = [

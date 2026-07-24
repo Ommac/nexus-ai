@@ -130,7 +130,7 @@ export default function SignUp() {
                         </div>
                         <div>
                             <h1 className="text-[2.25rem] font-bold tracking-tight leading-none text-foreground">
-                                Conversa
+                                Nexus AI
                             </h1>
                             <p className="mt-1.5 text-sm text-muted-foreground">
                                 Chat with anyone, anywhere, instantly.

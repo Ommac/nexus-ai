@@ -38,7 +38,7 @@ const getPresignedUrl = async (req, res) => {
   try {
     const { url, fields } = await createPresignedPost(s3Client, {
       Bucket: AWS_BUCKET_NAME,
-      Key: `conversa/${userId}/${crypto.randomUUID()}-${filename}`,
+      Key: `nexus-ai/${userId}/${crypto.randomUUID()}-${filename}`,
       Conditions: [["content-length-range", 0, 5 * 1024 * 1024]],
       Fields: {
         success_action_status: "201",
@@ -247,7 +247,7 @@ const deleteAccount = async (req, res) => {
 
     await User.findByIdAndUpdate(userId, {
       isDeleted: true,
-      name: "Deleted Conversa User",
+      name: "Deleted Nexus AI User",
       about: "",
       email: anonymisedEmail,
       profilePic: "https://ui-avatars.com/api/?name=Deleted+User&background=808080&color=ffffff&bold=true",

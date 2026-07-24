@@ -28,7 +28,7 @@ const Userschema = new mongoose.Schema(
     profilePic: {
       type: String,
       default:
-        "https://ui-avatars.com/api/?name=Conversa&background=random&bold=true",
+        "https://ui-avatars.com/api/?name=Nexus+AI&background=random&bold=true",
     },
     otp: {
       type: String,

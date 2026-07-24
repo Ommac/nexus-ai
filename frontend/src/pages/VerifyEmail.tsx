@@ -77,7 +77,7 @@ export default function VerifyEmail() {
             await authApi.verifyEmail(otpCode)
             // Update local user state so the rest of the app knows the email is verified
             if (user) setUser({ ...user, isEmailVerified: true })
-            toast.success("Email verified successfully! Welcome to Conversa.")
+            toast.success("Email verified successfully! Welcome to Nexus AI.")
             navigate("/user/conversations", { replace: true })
         } catch (err) {
             toast.error(err instanceof Error ? err.message : "Invalid OTP. Try again.")
@@ -120,7 +120,7 @@ export default function VerifyEmail() {
                         <MessageCircle className="w-8 h-8 text-white" strokeWidth={1.5} />
                     </div>
                     <div className="space-y-2">
-                        <h1 className="text-4xl font-bold tracking-tight">Conversa</h1>
+                        <h1 className="text-4xl font-bold tracking-tight">Nexus AI</h1>
                         <p className="text-white/70 text-lg leading-relaxed">
                             One last step — verify your email to get started.
                         </p>

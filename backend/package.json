@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "nexus-ai-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nexus AI - Realtime Chatting App backend",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

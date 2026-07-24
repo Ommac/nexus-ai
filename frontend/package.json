@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "name": "nexus-ai-frontend",
+  "description": "Nexus AI - Realtime Chatting App frontend",
   "private": true,
   "version": "0.0.1",
   "type": "module",

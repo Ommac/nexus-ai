@@ -1,6 +1,6 @@
-# Conversa
+# Nexus AI
 
-Conversa is a modern real-time AI chat application built with the MERN stack. It provides secure authentication, real-time messaging using Socket.IO, AI-powered conversations with Google Gemini, and media uploads.
+Nexus AI is a modern real-time AI chat application built with the MERN stack. It provides secure authentication, real-time messaging using Socket.IO, AI-powered conversations with Google Gemini, and media uploads.
 
 ## Features
 
